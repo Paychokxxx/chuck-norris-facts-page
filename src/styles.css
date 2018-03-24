@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url(https://d50m6q67g4bn3.cloudfront.net/avatars/7f6e7b9b-ad39-4f98-b773-6d434c311b68_1481741590042); /* Путь к фоновому изображению */
+  color: black;
+  font-family: 'Open Sans',serif;
+}

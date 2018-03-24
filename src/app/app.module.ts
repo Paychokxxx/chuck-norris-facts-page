@@ -1,18 +1,22 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
+import { MainBlockComponent } from './main-block/main-block.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainBlockComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
-  providers: [],
+  providers: [MainBlockComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
